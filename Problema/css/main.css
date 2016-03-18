@@ -1,0 +1,140 @@
+/*----VARIABLES-----*/
+/*----FIN VARIABLES-----*/
+/*---------------SCSS----------------*/
+hr {
+  color: #8E8F8F; }
+
+header .navbar-right {
+  margin-right: 10% !important; }
+header ul {
+  padding: 0%; }
+header li a {
+  font-weight: bolder; }
+header img {
+  height: 2em;
+  width: 50%;
+  margin-top: -2%;
+  margin-left: 20%; }
+
+#bg-trans {
+  background-image: url("../images/1920x665-1.jpg");
+  background-size: cover;
+  margin-bottom: 5%; }
+  #bg-trans .text1 {
+    width: 100%;
+    height: 0px;
+    background-color: transparent;
+    padding: 2%;
+    padding-left: 5%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    color: white;
+    z-index: 1; }
+    #bg-trans .text1 h1 {
+      font-size: 3.5em; }
+  #bg-trans .background {
+    width: 100%;
+    height: 30em;
+    background-color: black;
+    padding: 10px; }
+  #bg-trans p {
+    margin-top: 3%; }
+  #bg-trans .trans {
+    opacity: 0.5;
+    position: relative;
+    top: 5px;
+    left: 0px; }
+  #bg-trans button {
+    margin-top: 1%;
+    border-radius: 3.5em;
+    padding: 1%;
+    width: 10%; }
+  #bg-trans .uno {
+    margin-left: -75%;
+    margin-right: 3%;
+    background-color: #24D2FD; }
+  #bg-trans .uno:hover {
+    background: transparent;
+    color: white;
+    box-shadow: inset 0 0 0 3px #24D2FD; }
+  #bg-trans .dos {
+    background: transparent;
+    color: white;
+    box-shadow: inset 0 0 0 3px #24D2FD; }
+  #bg-trans .dos:hover {
+    background-color: #24D2FD;
+    color: white;
+    box-shadow: inset 0 0 0 3px #24D2FD; }
+  #bg-trans i {
+    margin-left: 2%; }
+
+#bg-white {
+  background-color: white;
+  padding-top: 1em solid black;
+  color: #8E8F8F; }
+  #bg-white img {
+    margin: 10% 0% 10% 0%;
+    width: 100%;
+    height: 80%; }
+  #bg-white .txt2 {
+    margin: 3% 0% 1% 0%; }
+    #bg-white .txt2 span {
+      color: #24D2FD;
+      font-weight: bolder; }
+  #bg-white .tres {
+    background: transparent;
+    color: #24D2FD;
+    box-shadow: inset 0 0 0 3px #24D2FD;
+    border-radius: 3.5em;
+    padding: 3%;
+    width: 30%; }
+  #bg-white .tres:hover {
+    background-color: #24D2FD;
+    color: white;
+    box-shadow: inset 0 0 0 3px #24D2FD; }
+
+#bg-gray {
+  padding-bottom: 3%;
+  margin-top: 5%;
+  background-color: #EBECED;
+  color: #8E8F8F; }
+  #bg-gray .title {
+    padding: 5%; }
+  #bg-gray img {
+    margin: 15% 0% 10% 0%;
+    width: 100%; }
+  #bg-gray .box-top {
+    margin-top: 15%; }
+  #bg-gray .box {
+    margin-top: 10%; }
+
+footer {
+  padding: 3%; }
+  footer .icon-box {
+    border: 0.1em solid #24D2FD;
+    border-radius: 3.5em;
+    padding: 5%;
+    margin-right: 2%;
+    width: 22%;
+    margin-bottom: 5%; }
+    footer .icon-box i {
+      color: #24D2FD;
+      margin-left: 20%; }
+  footer p {
+    font-size: 0.8em; }
+  footer .espacio {
+    margin-bottom: 1%; }
+  footer span {
+    color: #24D2FD; }
+
+@media screen and (max-width: 600px) {
+  #bg-trans .text1 {
+    top: 20%; }
+  #bg-trans button {
+    width: 6em; }
+  #bg-trans .uno {
+    margin-left: -50%; } }
+/*------------FIN SCSS--------------*/
+
+/*# sourceMappingURL=main.css.map */

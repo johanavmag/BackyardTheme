@@ -1,0 +1,192 @@
+/*----VARIABLES-----*/
+$cinco:5%;
+$uno:1%;
+$dos:2%;
+$tres:3%;
+$cero:0%;
+$quince:15%;
+$veinte:20%;
+$treinta:30%;
+$diez:10%;
+$setenta:75%;
+$cincuenta:50%;
+$negritas:bolder;
+$blanco:white;
+$azul:#24D2FD;
+$big:3.5em;
+$gristxt:#8E8F8F;
+$small:.8em;
+/*----FIN VARIABLES-----*/
+
+/*---------------SCSS----------------*/
+hr{
+	color: $gristxt;
+}
+header{
+	.navbar-right{
+		margin-right: $diez !important;
+	}
+	ul{
+		padding:$cero;
+	}
+	li a {
+		font-weight: $negritas;
+	}
+	img{
+		height: 2em;
+		width: 50%;
+		margin-top: -$dos;
+		margin-left: $veinte;
+	}
+}
+#bg-trans{
+	background-image: url("../images/1920x665-1.jpg");
+	background-size: cover;
+	margin-bottom: $cinco;
+		.text1 {
+    		width: 100%;
+    		height: 0px;
+    		background-color: transparent;
+   		 	padding: $dos;
+    		padding-left: $cinco;
+    		position: absolute;
+    		top:$diez;
+    		left:$cero;
+    		color: $blanco;
+    		z-index: 1;
+    		h1{
+    			font-size: $big;
+    		}
+		}
+		.background {
+    		width: 100%;
+    		height: 30em;
+    		background-color: black;
+    		padding: 10px;
+		}
+		p{
+			margin-top: $tres;
+		}
+		.trans {
+    		opacity: 0.5;
+    		position: relative;
+    		top:5px;
+    		left: 0px;
+		}
+		button{
+			margin-top: $uno;
+			border-radius: $big;
+			padding: $uno;
+			width:$diez;
+		}
+		.uno{
+			margin-left: -$setenta;
+			margin-right: $tres;
+			background-color:$azul;
+		}
+		.uno:hover {
+ 			background: rgba(0,0,0,0);
+ 			color: white;
+ 			box-shadow: inset 0 0 0 3px $azul;
+		}
+		.dos{
+			background: rgba(0,0,0,0);
+ 			color: white;
+ 			box-shadow: inset 0 0 0 3px $azul;
+		}
+		.dos:hover {
+ 			background-color: $azul;
+ 			color: white;
+ 			box-shadow: inset 0 0 0 3px $azul;
+		}
+		i{
+			margin-left: $dos;
+		}
+}
+#bg-white{
+	background-color: $blanco;
+	padding-top: 1em solid black;
+	color:$gristxt;
+		img{
+			margin: $diez $cero $diez $cero;
+			width: 100%;
+			height: 80%;
+		}
+		.txt2{
+			margin: $tres $cero $uno $cero;
+			span {
+				color:$azul;
+				font-weight: $negritas;
+			}
+		}
+		.tres{
+			background: rgba(0,0,0,0);
+ 			color: $azul;
+ 			box-shadow: inset 0 0 0 3px $azul;
+ 			border-radius: $big;
+			padding: $tres;
+			width: $treinta;
+		}
+		.tres:hover {
+ 			background-color: $azul;
+ 			color: $blanco;
+ 			box-shadow: inset 0 0 0 3px $azul;
+		}
+}
+#bg-gray{
+	padding-bottom: $tres;
+	margin-top: $cinco;
+	background-color: #EBECED;
+	color:$gristxt ;
+		.title{
+			padding:$cinco;
+		}
+		img{
+			margin: $quince $cero $diez $cero;
+			width: 100%;
+		}
+		.box-top{
+			margin-top: $quince;
+		}
+		.box {
+			margin-top: $diez;
+		}
+}
+footer{
+	padding: $tres;
+		.icon-box{
+			border:.1em solid $azul;
+			border-radius: $big;
+			padding: $cinco;
+			margin-right: $dos;
+			width: 22%;
+			margin-bottom: $cinco;
+				i{
+				color: $azul;
+				margin-left: $veinte;
+				}
+		}
+		p{
+			font-size:$small;
+		}
+		.espacio{
+			margin-bottom: $uno;
+		}
+		span{
+			color: $azul;
+		}
+}
+@media screen and (max-width: 600px){
+	#bg-trans{
+		.text1 {
+    		top:$veinte;
+		}
+		button{
+		width:6em;
+		}
+		.uno{
+		margin-left: -$cincuenta;
+		}
+	}
+}
+/*------------FIN SCSS--------------*/
